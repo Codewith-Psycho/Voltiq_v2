@@ -1,0 +1,20 @@
+{
+  "mae_kw": 0.1024,
+  "mape_pct": 27.1,
+  "within_15pct": 56.5,
+  "peak_auc": 0.972,
+  "p90_coverage": 89.9,
+  "model_type": "LightGBM_3model",
+  "features": [
+    "hour_sin",
+    "hour_cos",
+    "dow_sin",
+    "dow_cos",
+    "lag_1",
+    "lag_4",
+    "lag_96",
+    "lag_672",
+    "roll_4",
+    "roll_24"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "model_name": "VoltIQ-OPC",
+  "auc_roc": 0.796,
+  "accuracy_pct": 79.5,
+  "threshold": 0.6,
+  "n_features": 18,
+  "features": [
+    "hour",
+    "month",
+    "dow",
+    "is_weekend",
+    "season",
+    "is_festival",
+    "hour_sin",
+    "hour_cos",
+    "month_sin",
+    "month_cos",
+    "mcp",
+    "wmcp",
+    "demand_supply_gap",
+    "unmet_demand",
+    "mcp_spike",
+    "vol_utilization",
+    "mcp_roll_4",
+    "mcp_pct_7d"
+  ],
+  "data_source": "Real IEX India DAM Data 2018-2024",
+  "total_rows": 233665,
+  "key_features": [
+    "MCP price spike (primary signal)",
+    "Demand-Supply gap",
+    "Unmet demand",
+    "Volume utilization"
+  ]
+}

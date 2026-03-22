@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.next/
+out/
+.env.local
+.env*.local
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large files)
+*.pkl
+*.keras
+*.h5
+*.joblib
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
+*.temp

@@ -1,0 +1,19 @@
+{
+  "model_name": "VoltIQ-BHV",
+  "f1_score": 0.618,
+  "accuracy_pct": 68.5,
+  "threshold": 0.4,
+  "n_features": 54,
+  "train_samples": 1003917,
+  "test_samples": 215126,
+  "data_source": "Real REFIT UK Household Data",
+  "approach": {
+    "aggregation": "Hybrid 70% mean + 30% max",
+    "smoothing": "Rolling max window=3",
+    "representation": "24-hour binary daily vector",
+    "temporal": "Today + Yesterday \u2192 Tomorrow",
+    "imbalance": "scale_pos_weight in XGBoost",
+    "threshold": "F1-optimized (not default 0.5)"
+  },
+  "milp_use": "Output probabilities used as soft preference weights in MILP objective. Max 8% cost discount on preferred slots. Tariff always dominant \u2014 behavior is tiebreaker only."
+}

@@ -1,0 +1,16 @@
+{
+  "model_name": "VoltIQ-NILM",
+  "accuracy_pct": 94.7,
+  "classes": [
+    "ac",
+    "wm",
+    "fridge",
+    "cooler",
+    "other"
+  ],
+  "window_size": 8,
+  "data_source": "iAWE IIT Delhi + Synthetic Indian signatures",
+  "approach": "Rule-based filter + CNN hybrid",
+  "n_train": 30039,
+  "n_test": 6437
+}
