@@ -5,8 +5,6 @@ Trained on iAWE IIT Delhi + Synthetic Indian signatures.
 
 Input: Last 8 power readings (2 minutes at 15s intervals)
 Output: Detected appliance, confidence, state (ON/OFF)
-
-Note: Display only - not used in MILP optimization
 """
 
 import joblib
